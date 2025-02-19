@@ -33,6 +33,16 @@ In this project, we build a **static website** hosted on **Amazon S3**, accessib
 
 ---
 
+📜 Project Resources
+📖 AWS S3 Static Website Hosting Documentation
+🌍 Terraform AWS Provider Documentation
+🔑 AWS IAM Bucket Policy Generator
+💡 Follow this repository for updates as we expand projects covering compute, databases, networking, and security!
+
+📬 Contributions and feedback are welcome! If you have any questions, feel free to open an issue.
+
+
+
 ## ⚙️ **Infrastructure Setup (Terraform)**
 
 This project uses **Terraform** to provision AWS resources. Find the code in the `/terraform` directory.
@@ -51,13 +61,3 @@ terraform apply
 
 # Destroy resources (if needed)
 terraform destroy
-
-📜 Project Resources
-📖 AWS S3 Static Website Hosting Documentation
-🌍 Terraform AWS Provider Documentation
-🔑 AWS IAM Bucket Policy Generator
-💡 Follow this repository for updates as we expand projects covering compute, databases, networking, and security!
-
-📬 Contributions and feedback are welcome! If you have any questions, feel free to open an issue.
-
-
