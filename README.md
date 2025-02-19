@@ -7,10 +7,6 @@ Welcome to the **AWS Projects** repository! 🎯 This repository documents step-
 ## 📚 Project Roadmap
 
 1. ✅ **Project 1: S3 Static Website Hosting**  
-2. 🚧 **Project 2: CI/CD Pipeline for Website Deployment (Coming Soon!)**  
-3. 🚧 **Project 3: CloudFront for Content Delivery (Coming Soon!)**  
-4. 🚧 **More projects are on the way!**
-
 ---
 
 ## 🌐 Project 1: Create an S3 Bucket for Static Website Hosting
@@ -33,11 +29,11 @@ In this project, we build a **static website** hosted on **Amazon S3**, accessib
 
 ---
 
-📜 Project Resources
-📖 AWS S3 Static Website Hosting Documentation
-🌍 Terraform AWS Provider Documentation
-🔑 AWS IAM Bucket Policy Generator
-💡 Follow this repository for updates as we expand projects covering compute, databases, networking, and security!
+### 📜 **Project Resources**
+📖 **AWS S3 Static Website Hosting Documentation**
+🌍 **Terraform AWS Provider Documentation**
+🔑 **AWS IAM Bucket Policy Generator**
+💡 **Follow this repository for updates as we expand projects covering compute, databases, networking, and security!**
 
 📬 Contributions and feedback are welcome! If you have any questions, feel free to open an issue.
 
