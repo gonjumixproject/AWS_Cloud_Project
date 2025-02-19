@@ -29,31 +29,33 @@ In this project, we build a **static website** hosted on **Amazon S3**, accessib
 
 ---
 
-### 📜 **Project Resources**
-📖 **AWS S3 Static Website Hosting Documentation**
-🌍 **Terraform AWS Provider Documentation**
-🔑 **AWS IAM Bucket Policy Generator**
-💡 **Follow this repository for updates as we expand projects covering compute, databases, networking, and security!**
+## 📜 Project Resources
 
-📬 Contributions and feedback are welcome! If you have any questions, feel free to open an issue.
+Here are the official AWS and Terraform resources used for this project:
 
+### 🌐 **AWS Documentation**
+1. 📖 [Amazon S3 Static Website Hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)  
+   - Learn how to configure an S3 bucket for static website hosting.
+   
+2. 🔒 [AWS S3 Bucket Policies](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html)  
+   - Explore how to set bucket policies for public access.
 
+3. ⚙️ [AWS CLI for S3](https://docs.aws.amazon.com/cli/latest/reference/s3/index.html)  
+   - Command-line interface for managing S3 resources.
 
-## ⚙️ **Infrastructure Setup (Terraform)**
+4. 🛠️ [AWS IAM Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html)  
+   - Tool to generate bucket policies easily.
 
-This project uses **Terraform** to provision AWS resources. Find the code in the `/terraform` directory.
+---
 
-**Main commands:**
+### 📦 **Terraform Documentation**
+1. 📗 [Terraform AWS S3 Bucket Resource](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)  
+   - Understand how to create and manage an S3 bucket using Terraform.
 
-```bash
-# Initialize Terraform
-terraform init
+2. 📝 [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)  
+   - Documentation for the AWS provider in Terraform.
 
-# Preview the infrastructure changes
-terraform plan
+3. 💡 [Terraform Official Documentation](https://developer.hashicorp.com/terraform)  
+   - Learn Terraform best practices and commands.
 
-# Deploy the infrastructure
-terraform apply
-
-# Destroy resources (if needed)
-terraform destroy
+---
