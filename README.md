@@ -51,3 +51,13 @@ terraform apply
 
 # Destroy resources (if needed)
 terraform destroy
+
+📜 Project Resources
+📖 AWS S3 Static Website Hosting Documentation
+🌍 Terraform AWS Provider Documentation
+🔑 AWS IAM Bucket Policy Generator
+💡 Follow this repository for updates as we expand projects covering compute, databases, networking, and security!
+
+📬 Contributions and feedback are welcome! If you have any questions, feel free to open an issue.
+
+
