@@ -73,7 +73,7 @@ To make the objects in your bucket publicly readable, you need to apply a bucket
         }
     ]
 }
-
+```
 
 📄 **Example Endpoint:**  
 ### 📄 **Project Steps**
