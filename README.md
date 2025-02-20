@@ -10,7 +10,7 @@ Welcome to the **AWS Projects** repository! 🎯 This repository documents step-
 
 In this project, we build a **static website** hosted on **Amazon S3**, accessible via a public endpoint.
 <details>
-   <summary><strong>In this project, we build a **static website** hosted on **Amazon S3**, accessible via a public endpoint. details</strong></summary>
+
 #### **1.1 Create your S3 Static Website**
 *Reference [Enabling website hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/EnableWebsiteHosting.html).*
 
@@ -80,7 +80,7 @@ To make the objects in your bucket publicly readable, you need to apply a bucket
    - Your website URL is under the **Proporties** tab of your S3 Bucket under **Static Website**
      
 ---
-
+</details>
 ### 🌐 **AWS Documentation**
 1. 📖 [Amazon S3 Static Website Hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)  
    - Learn how to configure an S3 bucket for static website hosting.
