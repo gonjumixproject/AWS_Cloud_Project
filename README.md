@@ -9,7 +9,8 @@ Welcome to the **AWS Projects** repository! 🎯 This repository documents step-
 ### 1. ✅ **Project 1: S3 Static Website Hosting**  
 
 In this project, we build a **static website** hosted on **Amazon S3**, accessible via a public endpoint.
-
+<details>
+   <summary><strong>In this project, we build a **static website** hosted on **Amazon S3**, accessible via a public endpoint. details</strong></summary>
 #### **1.1 Create your S3 Static Website**
 *Reference [Enabling website hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/EnableWebsiteHosting.html).*
 
@@ -44,7 +45,7 @@ By default, Amazon S3 blocks public access to your account and buckets. To host 
 4. Under **Block public access (bucket settings)**, click **Edit**.
 5. Uncheck **Block all public access** and choose **Save changes**.
 
-#####⚠️ **Warning:**  
+⚠️ **Warning:**  
 Disabling Block Public Access allows anyone on the internet to access your bucket. Make sure you understand the security implications before proceeding. 
 ---
 
@@ -78,6 +79,7 @@ To make the objects in your bucket publicly readable, you need to apply a bucket
 ### 📜 **Step 3: Click the URL**
    - Your website URL is under the **Proporties** tab of your S3 Bucket under **Static Website**
      
+---
 
 ### 🌐 **AWS Documentation**
 1. 📖 [Amazon S3 Static Website Hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)  
