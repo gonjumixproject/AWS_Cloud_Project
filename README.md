@@ -44,7 +44,7 @@ By default, Amazon S3 blocks public access to your account and buckets. To host 
 4. Under **Block public access (bucket settings)**, click **Edit**.
 5. Uncheck **Block all public access** and choose **Save changes**.
 
-⚠️ **Warning:**  
+#####⚠️ **Warning:**  
 Disabling Block Public Access allows anyone on the internet to access your bucket. Make sure you understand the security implications before proceeding. 
 ---
 
@@ -75,19 +75,9 @@ To make the objects in your bucket publicly readable, you need to apply a bucket
 }
 ```
 
-📄 **Example Endpoint:**  
-### 📄 **Project Steps**
-1. **Create an S3 Bucket:** Store website files.  
-2. **Enable Static Hosting:** Configure website endpoint.  
-3. **Set Bucket Policy:** Allow public read access.  
-4. **Upload Website Files:** `index.html` and `error.html`.  
-5. **Test the Website:** Access through the S3 endpoint.
-
----
-
-## 📜 Project Resources
-
-Here are the official AWS and Terraform resources used for this project:
+### 📜 **Step 3: Click the URL**
+   - Your website URL is under the **Proporties** tab of your S3 Bucket under **Static Website**
+     
 
 ### 🌐 **AWS Documentation**
 1. 📖 [Amazon S3 Static Website Hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)  
@@ -101,17 +91,5 @@ Here are the official AWS and Terraform resources used for this project:
 
 4. 🛠️ [AWS IAM Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html)  
    - Tool to generate bucket policies easily.
-
----
-
-### 📦 **Terraform Documentation**
-1. 📗 [Terraform AWS S3 Bucket Resource](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket)  
-   - Understand how to create and manage an S3 bucket using Terraform.
-
-2. 📝 [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)  
-   - Documentation for the AWS provider in Terraform.
-
-3. 💡 [Terraform Official Documentation](https://developer.hashicorp.com/terraform)  
-   - Learn Terraform best practices and commands.
 
 ---
