@@ -82,24 +82,8 @@ To make the objects in your bucket publicly readable, you need to apply a bucket
         }
     ]
 }
-
+```
 
 ### 📜 **Step 3: Click the URL**
-   - Your website URL is under the **Proporties** tab of your S3 Bucket under **Static Website**
-     
----
-
-### 🌐 **AWS Documentation**
-1. 📖 [Amazon S3 Static Website Hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html)  
-   - Learn how to configure an S3 bucket for static website hosting.
-   
-2. 🔒 [AWS S3 Bucket Policies](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html)  
-   - Explore how to set bucket policies for public access.
-
-3. ⚙️ [AWS CLI for S3](https://docs.aws.amazon.com/cli/latest/reference/s3/index.html)  
-   - Command-line interface for managing S3 resources.
-
-4. 🛠️ [AWS IAM Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html)  
-   - Tool to generate bucket policies easily.
-
+   - Your website URL is under the **Proporties** tab of your S3 Bucket under **Static Website**  
 ---
