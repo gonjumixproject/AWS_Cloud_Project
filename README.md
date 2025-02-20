@@ -88,6 +88,7 @@ To make the objects in your bucket publicly readable, you need to apply a bucket
    - Your website URL is under the **Proporties** tab of your S3 Bucket under **Static Website**  
 ---
 </details>
+
 1. 🔽 **Project 2: Secure S3 Static Website Hosting with CloudFront**
 <details>
 <summary><strong>Project Overview</strong></summary>
