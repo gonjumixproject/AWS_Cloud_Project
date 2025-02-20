@@ -31,7 +31,7 @@ In this project, we build a **static website** hosted on **Amazon S3**, accessib
    - **Error Document (Optional):** Enter the name of your custom error page, typically `error.html`.  
 
 5. **Upload your Index file and Error file into your bucket**
-*Example index.html, error.html file links [Configuring an index document](https://docs.aws.amazon.com/AmazonS3/latest/userguide/IndexDocumentSupport.htmll).*
+   - *Example index.html, error.html file links [Configuring an index document](https://docs.aws.amazon.com/AmazonS3/latest/userguide/IndexDocumentSupport.htmll).*
 
 #### **1.2 Setting permissions for website access**
 *Reference [Blocking public access to S3 storage](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html).*
