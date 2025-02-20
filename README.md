@@ -8,7 +8,7 @@ Welcome to the **AWS Projects** repository! 🎯 This repository documents step-
 
 1. 🔽 **Project 1: S3 Static Website Hosting**  
 <details>
-<summary><strong>Click to expand Project 1 details</strong></summary>
+<summary><strong>Project Overview</strong></summary>
 
 ### 🚀 **Project Overview**
 In this project, we build a **static website** hosted on **Amazon S3**, accessible via a public endpoint.
