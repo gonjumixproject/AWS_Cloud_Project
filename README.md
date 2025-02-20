@@ -7,9 +7,9 @@ Welcome to the **AWS Projects** repository! 🎯 This repository documents step-
 ## 📚 Project Roadmap
 
 1. ✅ **Project 1: S3 Static Website Hosting**  
+*Reference [Enabling website hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/EnableWebsiteHosting.html).*
 
 In this project, we build a **static website** hosted on **Amazon S3**, accessible via a public endpoint.
-*Learn more about [Enabling website hosting](https://docs.aws.amazon.com/AmazonS3/latest/userguide/EnableWebsiteHosting.html).*
 
 ### **1.1 Create your S3 Static Website**
 1. **Access the S3 Console**
@@ -32,7 +32,7 @@ In this project, we build a **static website** hosted on **Amazon S3**, accessib
 5. **Upload your Index file and Error file into your bucket**
 
 ### **1.2 Setting permissions for website access**
-*Learn more about [Blocking public access to S3 storage](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html).*
+*Reference [Blocking public access to S3 storage](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html).*
 
 By default, Amazon S3 blocks public access to your account and buckets. To host a static website, you must adjust these settings:
 
@@ -43,9 +43,7 @@ By default, Amazon S3 blocks public access to your account and buckets. To host 
 5. Uncheck **Block all public access** and choose **Save changes**.
 
 ⚠️ **Warning:**  
-Disabling Block Public Access allows anyone on the internet to access your bucket. Make sure you understand the security implications before proceeding.  
-👉 *Learn more about [Blocking public access to S3 storage](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-control-block-public-access.html).*
-
+Disabling Block Public Access allows anyone on the internet to access your bucket. Make sure you understand the security implications before proceeding. 
 ---
 
 ### 📜 **Step 2: Add a Bucket Policy for Public Access**
