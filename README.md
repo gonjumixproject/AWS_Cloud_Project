@@ -140,7 +140,8 @@ To make the objects in your bucket publicly readable, you need to apply a bucket
 <details>
 <summary><strong>Project Overview</strong></summary>
 
-[AWS: Use IAM roles to connect GitHub Actions]([https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/](https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/))
+*Reference:[AWS: Use IAM roles to connect GitHub Actions][https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/]*
+
 
 ### 1. Create an OIDC Identity Provider in AWS
 1. Sign in to the AWS Management Console.
