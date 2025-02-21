@@ -135,6 +135,7 @@ To make the objects in your bucket publicly readable, you need to apply a bucket
    - Type your **Distribution domain name** into the browser, either only Distribution domain name or Distribution domain name/index.html should work.
    - Go Under S3 Bucket, and see that does not work
 </details>
+
 🔽 **Project 3: Connect your GitHub Actions with AWS using OIDC**  
 <details>
 <summary><strong>Project Overview</strong></summary>
