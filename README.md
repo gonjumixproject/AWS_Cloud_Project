@@ -6,7 +6,7 @@ Welcome to the **AWS Projects** repository! 🎯 This repository documents step-
 
 ## 📚 Project Roadmap
 
-1. 🔽 **Project 1: S3 Static Website Hosting**  
+ 🔽 **Project 1: S3 Static Website Hosting**  
 <details>
 <summary><strong>Project Overview</strong></summary>
 
@@ -89,7 +89,7 @@ To make the objects in your bucket publicly readable, you need to apply a bucket
 ---
 </details>
 
-1. 🔽 **Project 2: Secure S3 Static Website Hosting with CloudFront**
+ 🔽 **Project 2: Secure S3 Static Website Hosting with CloudFront**
 <details>
 <summary><strong>Project Overview</strong></summary>
    
@@ -134,8 +134,8 @@ To make the objects in your bucket publicly readable, you need to apply a bucket
    - Go Under CloudFront **Distributions**
    - Type your **Distribution domain name** into the browser, either only Distribution domain name or Distribution domain name/index.html should work.
    - Go Under S3 Bucket, and see that does not work
-
-1. 🔽 **Project 3: Connect your GitHub Actions with AWS using OIDC**  
+</details>
+🔽 **Project 3: Connect your GitHub Actions with AWS using OIDC**  
 <details>
 <summary><strong>Project Overview</strong></summary>
 
@@ -212,5 +212,6 @@ AWS_REGION: Enter the AWS Region for your AWS resources.
 role-to-assume: Replace the ARN with the ARN of the AWS GitHubAction role that you created previously.
 
 ### 4. Run your workflow
+</details>
 
 
