@@ -134,3 +134,83 @@ To make the objects in your bucket publicly readable, you need to apply a bucket
    - Go Under CloudFront **Distributions**
    - Type your **Distribution domain name** into the browser, either only Distribution domain name or Distribution domain name/index.html should work.
    - Go Under S3 Bucket, and see that does not work
+
+1. 🔽 **Project 3: Connect your GitHub Actions with AWS using OIDC**  
+<details>
+<summary><strong>Project Overview</strong></summary>
+
+[AWS: Use IAM roles to connect GitHub Actions]([https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/](https://aws.amazon.com/blogs/security/use-iam-roles-to-connect-github-actions-to-actions-in-aws/))
+
+### 1. Create an OIDC Identity Provider in AWS
+1. Sign in to the AWS Management Console.
+2. Open the **IAM** service.
+3. In the left navigation pane, choose **Identity Providers**.
+4. Select **Add Provider** and set the following:
+   - **Provider Type:** OpenID Connect
+   - **Provider URL:** `https://token.actions.githubusercontent.com`
+   - **Audience:** `sts.amazonaws.com`
+5. Click **Add Provider**.
+
+### 2. Create an IAM Role for GitHub Actions
+1. Go to the **IAM** > **Identity providers** > **token.actions.githubusercontent.com**
+2. Click **Assing Role** and choose **Create a new Role** .
+3. Select **Web Identity**. 
+4. Select the identity provider created earlier.
+5. Under **Audience**, choose `sts.amazonaws.com`.
+6. Select your **GitHub organization**.
+7. Select your **GitHub repository** if you want.
+8. Attach policies required for your GitHub Actions workflow, for this example I will create a S3 static website, so I will give **AmazonS3FullAccess**.
+9. Give a **Role name** to this role. 
+10. AWS will create a **Trust policy** for that role, so you do not need to update that information. 
+
+### 3. Update GitHub Actions Workflow
+1. Create a GitHub repository, and make sure it matches with the **GitHub repository** that provided in the AWS IAM. 
+2. In your GitHub repository, click **Action**.
+3. Click **Configure** under **Simple workflow**.
+4. It will create a **.github/workflows/blank.yml** file automaticly, you can create your own workflows folder, and yaml file as well.
+5. Change the **blank.yml** to **main.yml**
+6. Add the following permissions and AWS credentials setup in your workflow YAML:
+
+```yaml
+# This is a basic workflow to help you get started with Actions
+name:Connect to an AWS role from a GitHub repository
+
+# Controls when the action will run. Invokes the workflow on push events but only for the main branch
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  
+  AWS_REGION : <"us-east-1"> #Change to reflect your Region
+
+# Permission can be added at job level or workflow level    
+permissions:
+      id-token: write   # This is required for requesting the JWT
+      contents: read    # This is required for actions/checkout
+jobs:
+  AssumeRoleAndCallIdentity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git clone the repository
+        uses: actions/checkout@v3
+      - name: configure aws credentials
+        uses: aws-actions/configure-aws-credentials@v1.7.0
+        with:
+          role-to-assume: <arn:aws:iam::111122223333:role/GitHubAction-AssumeRoleWithAction> #change to reflect your IAM role’s ARN
+          role-session-name: GitHub_to_AWS_via_FederatedOIDC
+          aws-region: ${{ env.AWS_REGION }}
+      # Hello from AWS: WhoAmI
+      - name: Sts GetCallerIdentity
+        run: |
+          aws sts get-caller-identity
+```
+
+AWS_REGION: Enter the AWS Region for your AWS resources.
+role-to-assume: Replace the ARN with the ARN of the AWS GitHubAction role that you created previously.
+
+### 4. Run your workflow
+
+
