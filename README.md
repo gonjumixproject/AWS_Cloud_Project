@@ -1,7 +1,10 @@
 # 🚀 AWS Projects with Well-Architected Framework
 
-Welcome to the **AWS Projects** repository! 🎯 This repository documents step-by-step AWS projects aligned with the **AWS Well-Architected Framework**, providing detailed guides, infrastructure-as-code (IaC), and best practices.
+Welcome to the **AWS Projects** repository! 🎯 
 
+This repository documents step-by-step AWS projects aligned with the **AWS Well-Architected Framework**, providing detailed guides, infrastructure-as-code (IaC), and best practices.
+
+Video tutorials are https://www.youtube.com/channel/UC3fN4a8Oeu_Hr7uUq2Mqsow, please follow to support me!
 ---
 
 ## 📚 Project Roadmap
