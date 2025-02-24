@@ -175,7 +175,7 @@ To make the objects in your bucket publicly readable, you need to apply a bucket
 
 ```yaml
 # This is a basic workflow to help you get started with Actions
-name:Connect to an AWS role from a GitHub repository
+name:  Connect to an AWS role from a GitHub repository
 
 # Controls when the action will run. Invokes the workflow on push events but only for the main branch
 on:
