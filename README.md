@@ -216,7 +216,7 @@ role-to-assume: Replace the ARN with the ARN of the AWS GitHubAction role that y
 ### 4. Run your workflow
 </details>
 
-🔽 **Project 3:Create your first CI/CD pipeline to automate deployment on EC2 <Coming Soon>**  
+🔽 **Project 4:Create your first CI/CD pipeline to automate deployment on EC2 - Soon**  
 <details>
 <summary><strong>Project Overview</strong></summary>
 </details>
